@@ -10,6 +10,9 @@ pin = sys.argv[3]
 print(f"ATM withdrawal amount is: {withdraw_amount}")
 print(f"Balance is: {balance}")
 print(f"PIN is: {pin}")
+withdraw_amount = 500
+balance = 2000
+pin = 636360
 
 
 if balance > withdraw_amount:
